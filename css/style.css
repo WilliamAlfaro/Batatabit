@@ -167,6 +167,8 @@ main {
 }
 
 .main-currency-table .currency-table--tittle {
+    text-align: left;
+    margin-left: 33px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -175,6 +177,8 @@ main {
 }
 
 .main-currency-table .currency-table--tittle-com {
+    text-align: left;
+    margin-left: 33px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
