@@ -167,8 +167,8 @@ main {
 }
 
 .main-currency-table .currency-table--tittle {
-    text-align: left;
-    margin-left: 33px;
+    /*text-align: left;
+    margin-left: 33px;*/
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -177,8 +177,8 @@ main {
 }
 
 .main-currency-table .currency-table--tittle-com {
-    text-align: left;
-    margin-left: 33px;
+    /*text-align: left;
+    margin-left: 33px;*/
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -476,12 +476,16 @@ main {
 .plan-card--price {
     padding: 5px 0;
     font-size:  5.2rem;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 5.3rem;/*posiblemente quitar*/
+    letter-spacing: -5px;
     color: var(--black);
 }
 
 .plan-card--price span {
+    position: relative;
+    bottom: 30px;
+    right: 8px;
     font-size: 1.2rem;
     font-weight: 300;
 }
